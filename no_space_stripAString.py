@@ -1,9 +1,9 @@
 def no_space(x):
     A=x.split()
-    striped=''
+    stripped=''
     for i in range(0,len(A)):
-        striped=str(striped)+A[i]
-    return striped
+        stripped=str(stripped)+A[i]
+    return stripped
 
 
 print(no_space('hey my name is paolo'))
